@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "567b8dfd-cd9a-47f0-ad5f-ceb34182aa60",
+		"name": "Test Go",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Binary to Decimal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"value\": \"1011\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/backend/binary-decimal",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"backend",
+						"binary-decimal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Decimal to Binary",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"value\": 19\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/backend/decimal-binary",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"backend",
+						"decimal-binary"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Palindrome",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"value\": \"di rumah saya ada kasur rusak\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/backend/palindrome",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"backend",
+						"palindrome"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8080/api/v1",
+			"type": "string"
+		}
+	]
+}
