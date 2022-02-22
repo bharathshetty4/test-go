@@ -7,3 +7,4 @@ How to run
   go run cmd/app/main.go
 ```
 
+Import Postman collection from  : Test Go.postman_collection.json
