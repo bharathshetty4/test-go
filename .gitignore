@@ -1,7 +1,0 @@
-.idea/
-.DS_Store
-logs
-docs/swagger.json
-docs/docs.go
-/db/data
-.env
