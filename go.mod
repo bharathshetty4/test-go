@@ -1,4 +1,4 @@
-module github.com/sigit14ap/go-commerce
+module github.com/sigit14ap/test-go
 
 go 1.17
 
