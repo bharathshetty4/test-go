@@ -1,6 +1,8 @@
 
 ## Test Golang
 
+> JWT, redis, database, config loader, s3, logrus
+
 How to run
 
 ```bash
